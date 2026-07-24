@@ -15,6 +15,14 @@ Stream Sentinel 是面向酒店 IPTV、安防视频、教育录播、园区组�
 
 ![Stream Sentinel 直播流检测工作台](docs/product-screenshot.png)
 
+## 产品截图与演示素材
+
+这张工作台截图可以直接用于 GitHub、Gitee、掘金、微信群、朋友圈和私聊试用介绍：
+
+![流哨 Stream Sentinel 直播流检测、RTSP/HLS/UDP 流媒体巡检工作台](docs/product-screenshot.png)
+
+推广时建议把截图放在正文第一屏，让用户先看到“批量流地址、协议、状态、响应、媒体参数、诊断结果”这些真实界面信息，再看功能说明。仓库内还准备了 [推广素材包](docs/promotion-kit.md)，包含平台标题、首发正文、私聊话术、60 秒演示视频脚本、定价策略和首批客户验证表。
+
 ## 适合谁
 
 - 酒店 IPTV、园区电视、校园电视的组播验收与日常巡检；
