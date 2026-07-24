@@ -1,8 +1,14 @@
-# Stream Sentinel v2.2.5
+# Stream Sentinel v2.2.6
 
 > 把“这批流能不能播”变成一份可交付的证据。
 
 Stream Sentinel 是面向酒店 IPTV、安防、教育、园区组播与直播运维人员的本地流媒体巡检与取证工具。无需部署服务器、无需配置环境：双击即可批量检查流地址、定位异常、保留首帧证据并导出 HTML 报告。
+
+## 下载体验版
+
+[前往 GitHub Releases 下载 Windows 体验版](https://github.com/ITIAN-CAO/stream-sentinel/releases/latest)
+
+体验版无需注册、无需联网激活、没有使用期限，保留协议探测、专业媒体参数、UDP 网卡识别、首帧和 HTML 报告；最多保存 3 条流，仅支持手动巡检，报告带体验版标识。专业版提供不限流、定时巡检与正式交付报告。
 
 ![Stream Sentinel 工作台](docs/product-screenshot.png)
 
@@ -60,7 +66,7 @@ UDP 组播地址示例：`udp://@239.1.1.1:1234`
 
 ## 3 分钟快速开始
 
-1. 解压发行包，双击 `stream-sentinel-v2.2.5.exe`。
+1. 解压发行包；体验版双击 `stream-sentinel-v2.2.6-trial.exe`，专业版双击对应版本 EXE。
 2. 浏览器会自动打开本地工作台；程序找不到默认端口时会自动选择可用端口。
 3. 在“添加地址”单条录入，或直接从 Excel 粘贴：
 
@@ -117,6 +123,12 @@ UDP 组播地址示例：`udp://@239.1.1.1:1234`
 - 摄像头、NVR、教育录播与安防平台的批量巡检；
 - 直播源切换前检查、日常可用性巡检和故障取证；
 - 集成商现场交付、运维工程师排障、供应商问题沟通。
+
+## 升级专业版
+
+专业版提供不限流地址、定时巡检、无体验版标识报告和项目场景支持。首发阶段建议价为 **199 元/台买断**；协议适配、报告字段、现场网络或项目部署需求单独报价。
+
+可在 [GitHub Issues](https://github.com/ITIAN-CAO/stream-sentinel/issues) 或 [Gitee Issues](https://gitee.com/ITIAN_chaoqian/stream-sentinel-mirror/issues) 留言“专业版试用/购买”。请勿在公开 Issue 中提交真实流地址、账号、Token 或客户网络信息。
 
 ## 推广与试用
 
