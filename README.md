@@ -15,7 +15,7 @@ Stream Sentinel 是面向酒店 IPTV、安防视频、教育录播、园区组�
 
 体验版无需注册、无需联网激活、没有使用期限；最多保存 3 条流，仅支持手动巡检，导出的报告带体验版标识。它保留协议探测、媒体参数、UDP 网卡识别、首帧截图和 HTML 报告等核心能力。专业版提供不限流、定时巡检与正式交付报告。
 
-![Stream Sentinel 直播流检测工作台](docs/product-screenshot.png)
+![Stream Sentinel 直播流检测工作台](https://gitee.com/ITIAN_chaoqian/stream-sentinel-mirror/raw/main/docs/product-screenshot.png)
 
 这就是实际工作台：先看批量流地址、协议、状态、响应耗时、媒体参数与诊断结果，再决定是否适合你的现场。更多推广文案、60 秒演示脚本和场景验证表见 [推广素材包](docs/promotion-kit.md)。
 
