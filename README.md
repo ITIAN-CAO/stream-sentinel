@@ -6,22 +6,18 @@ Stream Sentinel 是面向酒店 IPTV、安防视频、教育录播、园区组�
 
 如果这个工具帮你节省了现场排障时间，欢迎在 GitHub 点 Star、在 Gitee 点 Star/点赞。早期项目很需要这些反馈，它会直接影响后续功能优先级和专业版支持力度。
 
-## 下载体验版
+## 立即下载体验版
 
 - [GitHub Releases 下载 Windows 体验版](https://github.com/ITIAN-CAO/stream-sentinel/releases/latest)
 - [Gitee Releases 下载 Windows 体验版](https://gitee.com/ITIAN_chaoqian/stream-sentinel-mirror/releases/tag/v2.2.6-trial)
 
-体验版无需注册、无需联网激活、没有使用期限，保留协议探测、媒体参数、UDP 网卡识别、首帧截图和 HTML 报告能力；最多保存 3 条流，仅支持手动巡检，报告带体验版标识。专业版提供不限流、定时巡检与正式交付报告。
+**适合先下载验证的场景：** 你手上有 1～3 条已授权的 HLS、RTSP、UDP/RTP、RTMP 或 SRT 流，需要在现场确认“是否可播、媒体参数是否正确、组播走哪张网卡”，或需要一份能发给客户/供应商的检测证据。
+
+体验版无需注册、无需联网激活、没有使用期限；最多保存 3 条流，仅支持手动巡检，导出的报告带体验版标识。它保留协议探测、媒体参数、UDP 网卡识别、首帧截图和 HTML 报告等核心能力。专业版提供不限流、定时巡检与正式交付报告。
 
 ![Stream Sentinel 直播流检测工作台](docs/product-screenshot.png)
 
-## 产品截图与演示素材
-
-这张工作台截图可以直接用于 GitHub、Gitee、掘金、微信群、朋友圈和私聊试用介绍：
-
-![流哨 Stream Sentinel 直播流检测、RTSP/HLS/UDP 流媒体巡检工作台](docs/product-screenshot.png)
-
-推广时建议把截图放在正文第一屏，让用户先看到“批量流地址、协议、状态、响应、媒体参数、诊断结果”这些真实界面信息，再看功能说明。仓库内还准备了 [推广素材包](docs/promotion-kit.md)，包含平台标题、首发正文、私聊话术、60 秒演示视频脚本、定价策略和首批客户验证表。
+这就是实际工作台：先看批量流地址、协议、状态、响应耗时、媒体参数与诊断结果，再决定是否适合你的现场。更多推广文案、60 秒演示脚本和场景验证表见 [推广素材包](docs/promotion-kit.md)。
 
 ## 适合谁
 
@@ -113,7 +109,11 @@ UDP 组播地址示例：`udp://@239.1.1.1:1234`
 
 专业版提供不限流地址、定时巡检、无体验版标识报告和项目场景支持。首发阶段建议价为 **199 元/台买断**；协议适配、报告字段、现场网络或项目部署需求单独报价。
 
-可在 [GitHub Issues](https://github.com/ITIAN-CAO/stream-sentinel/issues) 或 [Gitee Issues](https://gitee.com/ITIAN_chaoqian/stream-sentinel-mirror/issues) 留言“专业版试用/购买”。请勿在公开 Issue 中提交真实流地址、账号、Token 或客户网络信息。
+### 专业版试用、购买与项目合作
+
+请直接发送邮件至 [1417990324@qq.com](mailto:1417990324@qq.com)，邮件主题可写：`Stream Sentinel 专业版试用/购买`。建议说明你的使用场景、流数量、协议类型和是否需要定时巡检或报告定制；**请不要通过公开 Issue 或邮件发送真实流地址、账号、Token、客户网络拓扑等敏感信息。**
+
+也可以在 [GitHub Issues](https://github.com/ITIAN-CAO/stream-sentinel/issues) 或 [Gitee Issues](https://gitee.com/ITIAN_chaoqian/stream-sentinel-mirror/issues) 留言“专业版试用/购买”，我会通过公开可见的方式回复后续联系渠道。
 
 ## 支持项目
 
@@ -127,4 +127,4 @@ UDP 组播地址示例：`udp://@239.1.1.1:1234`
 
 ## 使用边界与许可证
 
-请仅检测你拥有授权的流地址。包内第三方组件的许可证见 [LICENSES](LICENSES/) 目录。
+请仅检测你拥有授权的流地址。本产品为闭源体验版和商业软件，使用与分发规则见 [LICENSE](LICENSE)；包内第三方组件的许可证见 [LICENSES](LICENSES/) 目录。
